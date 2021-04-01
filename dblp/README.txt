@@ -1,21 +1,21 @@
 
 1-Run network_graph_similarity.R in R_training folder to genarate the adjacent matrix ad_matrix_training.csv from the graph and three type of similairty features between each two nodes in the train network graph: invlogweighted, Jaccard, and dice that are stored in the following csv files repectively:
 
-invlogweighted_train.csv,
+-invlogweighted_train.csv
 
-Jaccard_train.csv, 
+-Jaccard_train.csv 
 
-dice_train.csv
+-dice_train.csv
 
 Those files are needed as an arguments/inputs to main.py script
 
 2- Similarly, run network_graph_similarity.R in R_testing folder to genarate the adjacent matrix ad_matrix_testing.csv from the graph and three type of similairty features between each two nodes in the test network graph: invlogweighted, Jaccard, and dice that are stored in the following csv files repectively:
 
-invlogweighted_test.csv,
+-invlogweighted_test.csv
 
-Jaccard_test.csv, 
+-Jaccard_test.csv 
 
-dice_test.csv 
+-dice_test.csv 
 
 Those files are needed as an arguments to main.py script.
 3- Run main.py to profuce co_author_Affiliations_train.csv, co_author_R_intersts_train.csv, co_author_Affiliations_test.csv and co_author_R_intersts_test.csv needed as
