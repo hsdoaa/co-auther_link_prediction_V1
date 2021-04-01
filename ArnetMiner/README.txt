@@ -1,4 +1,6 @@
 
+How to run python and R code in ArnetMiner folder: 
+
 1-Run network_graph_similarity.R in R_training folder to genarate the adjacent matrix ad_matrix_training.csv from the graph and three type of similairty features between each two nodes in the train network graph: invlogweighted, Jaccard, and dice that are stored in the following csv files repectively:
 
 -invlogweighted_train.csv
