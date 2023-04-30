@@ -30,6 +30,6 @@ argumenta/inputs to main.py
 
 Note:
 
-In steps from 1 to 7, we get the coauthors data for training and testing by reading the information of the 1st 5000 authors
+In steps from 1 to 6, we get the coauthors data for training and testing by reading the information of the 1st 5000 authors
 in AMiner_Author_50000.txt. However, if we need to work on half of ArnetMiner and dblp datasets, we to consider the all or half of authors in
 AMiner_Author.txt
